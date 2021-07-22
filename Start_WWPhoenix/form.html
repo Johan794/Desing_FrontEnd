@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title> World Wild Phoenix</title>
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+     <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <a href="#" class="logo"> <b>WWPhoenix</b></a>
+            <nav class="menu">
+                <a href="./index.html">Inicio</a>
+                <a href="#">Nosotros</a>
+                <a href="./form.html">Contacto</a>
+           </nav>
+           <h3 class="tituloFormulario">Complete el formulario para poder ser contactado por nuestro equipo</h3>
+        </header>
+        <main>
+            <div class="contenedor-formulario">
+                <form action="#" method="POST">
+                    <div>
+                        <label for="Nombre"><b>Nombre: </b></label>
+                        <input type ="text" name = "Nombre" id ="Nombre">
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for= "Email"> <b>Correo de contacto: </b></label>
+                        <input type="email" name="Correo" id = "Email">
+                    </div>
+                    
+                    <br>
+
+                    <div>
+                        <label for="SexM"><b>Masculino</b></label>
+                        <input type ="checkbox" name="SexoM" id="SexM">
+                        <label for="SexF"><b>Femenino</b></label>
+                        <input type ="checkbox" name="SexoF" id="SexF">
+                        <label for="Sex"><b>Otro</b></label>
+                        <input type ="checkbox" name="Sexo" id="Sex">
+                    </div>
+
+                    <div class="btn-enviar">
+                        <input type="submit" value="Enviar" >
+                    </div>
+                                      
+                </form>
+            </div>
+            
+        </main>
+        
+    </div>
+  
+</body>
+</html>

@@ -89,6 +89,12 @@ main .contenedor-img {
      margin-bottom: 40px;
      line-height: 36px;
 }
+.contenedor-formulario {
+     width: 90%; 
+     margin: 40px auto;
+     padding: 40px;
+     border-radius: 10px;
+}
 
 .btn-link {
      display: inline-block;
@@ -104,6 +110,14 @@ main .contenedor-img {
 .btn-link.activo {
 	color: #fff;
 	background:#F23B05
+}
+.btn-enviar:hover,
+.btn-enviar{
+     widows: 1000000000px;
+     text-align: center;
+     
+
+
 }
 
 @media screen and (max-width: 915px) {
